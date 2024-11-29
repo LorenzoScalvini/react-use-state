@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import languages from './data/languages';
-import Button from './components/Button';
-import DetailCard from './components/DetailCard';
-import style from './App.module.css';
+import React, { useState } from "react";
+import languages from "./data/languages";
+import Button from "./components/Button";
+import DetailCard from "./components/DetailCard";
+import style from "./App.module.css";
 
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState(null);
@@ -28,5 +28,3 @@ function App() {
 }
 
 export default App;
-
-

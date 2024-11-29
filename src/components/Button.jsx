@@ -1,5 +1,5 @@
-import React from 'react';
-import style from './Button.module.css';
+import React from "react";
+import style from "./Button.module.css";
 
 function Button({ language, isSelected, onClick }) {
   const buttonClass = isSelected
@@ -14,4 +14,3 @@ function Button({ language, isSelected, onClick }) {
 }
 
 export default Button;
-

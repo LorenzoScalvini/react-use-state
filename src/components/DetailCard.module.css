@@ -1,25 +1,24 @@
 .card {
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .description {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #666;
-  }
-  
-  .emptyMessage {
-    font-style: italic;
-    color: #999;
-  }
-  
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.emptyMessage {
+  font-style: italic;
+  color: #999;
+}
