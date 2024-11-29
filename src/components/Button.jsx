@@ -1,20 +1,17 @@
 import React from 'react';
+import style from './Button.module.css';
 
 function Button({ language, isSelected, onClick }) {
-  const buttonStyle = {
-    padding: '10px 20px',
-    cursor: 'pointer',
-    backgroundColor: isSelected ? 'gold' : 'blue',
-    color: 'white',
-    border: 'none',
-    borderRadius: '5px',
-  };
+  const buttonClass = isSelected
+    ? `${style.button} ${style.selected}`
+    : style.button;
 
   return (
-    <button style={buttonStyle} onClick={() => onClick(language)}>
+    <button className={buttonClass} onClick={() => onClick(language)}>
       {language.title}
     </button>
   );
 }
 
 export default Button;
+
